@@ -16,6 +16,7 @@ public class Employee {
 			this.empSal = empSal;
 		}
 		public int getEmpId() {
+			System.out.println("AAA");
 			return empId;
 		}
 		public void setEmpId(int empId) {
