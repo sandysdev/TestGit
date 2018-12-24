@@ -17,6 +17,7 @@ public class Employee {
 		}
 		public int getEmpId() {
 			System.out.println("AAA");
+			System.out.println("BBB");
 			return empId;
 		}
 		public void setEmpId(int empId) {
