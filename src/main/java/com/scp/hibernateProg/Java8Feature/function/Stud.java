@@ -27,7 +27,7 @@ public class Stud {
 		return "Stud [rollno=" + rollno + ", name=" + name + ", marks=" + marks + "]";
 	}
 	public Stud(int rollno, String name, double marks) {
-		
+		super();
 		this.rollno = rollno;
 		this.name = name;
 		this.marks = marks;
